@@ -3339,7 +3339,7 @@ if (Number(oi2) >= 50) return reply('*Most!*')
                                 break
 
                 case 'fitnahpc':
-                if (args.length < 1) return reply(`Usage :\n${prefix}fitnahpc [number|message|replybot]]\n\nEx : \n${prefix}fitnahpc 0|hai|hai juga markenlin`)
+                if (args.length < 1) return reply(`Usage :\n${prefix}fitnahpc [number|message|replybot]]\n\nEx : \n${prefix}fitnahpc 0|hai|hai juga`)
                 var gh = body.slice(10)
                 var parti = gh.split("|")[0];
                 var targetq = gh.split("|")[1];
